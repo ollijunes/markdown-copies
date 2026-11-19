@@ -1,0 +1,47 @@
+{
+  "name": "markdown-copies",
+  "version": "0.1.0",
+  "description": "Give every page of a static site a Markdown copy, a link to it and an llms.txt. Astro integration and a CLI for any build folder.",
+  "license": "MIT",
+  "author": "Olli Junes (https://ollijunes.com)",
+  "homepage": "https://github.com/ollijunes/markdown-copies#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ollijunes/markdown-copies.git"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "exports": {
+    ".": "./src/index.js",
+    "./astro": "./src/astro.js"
+  },
+  "bin": {
+    "markdown-copies": "bin/markdown-copies.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "coverage": "node --test --experimental-test-coverage --test-coverage-lines=90 --test-coverage-include='src/**' --test-coverage-include='bin/**'",
+    "lint": "node --check src/index.js && node --check src/page.js && node --check src/llms.js && node --check src/paths.js && node --check src/astro.js && node --check src/cli.js && node --check bin/markdown-copies.js"
+  },
+  "dependencies": {
+    "node-html-markdown": "^2.0.0",
+    "node-html-parser": "^6.1.13"
+  },
+  "keywords": [
+    "astro-integration",
+    "llms-txt",
+    "markdown",
+    "static-site",
+    "ai-agents",
+    "seo"
+  ]
+}
