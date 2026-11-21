@@ -24,6 +24,8 @@ no extra work.
 [Security](SECURITY.md) · [Contributing](CONTRIBUTING.md) ·
 [ollijunes.com](https://ollijunes.com)
 
+Read the story behind it: [in English](https://ollijunes.com/markdown-copies-a-markdown-copy-of-every-page-and-llms-txt/) · [suomeksi](https://ollijunes.com/fi/markdown-copies-markdown-kopio-joka-sivusta-ja-llms-txt/).
+
 ## Who it is for
 
 People who publish articles, guides or documentation as a static site
